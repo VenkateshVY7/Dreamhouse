@@ -19,7 +19,7 @@ export default class HousingMap extends LightningElement {
             });
             this.error = undefined;
         } else if (error) {
-            this.error = error;
+            this.error = error
             this.mapMarkers = undefined;
         }
     }
